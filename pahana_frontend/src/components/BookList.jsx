@@ -303,7 +303,7 @@ const AllBooksView = () => {
                   <p className="text-amber-700 text-sm mb-4 line-clamp-2">{book.description}</p>
                   
                   <div className="flex items-center justify-between">
-                    <span className="text-xl font-bold text-amber-600">${book.price.toFixed(2)}</span>
+                    <span className="text-xl font-bold text-amber-600">Rs.{book.price.toFixed(2)}</span>
                     <button
                       onClick={() => addToCart(book)}
                       className="flex items-center bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg transition-colors"
