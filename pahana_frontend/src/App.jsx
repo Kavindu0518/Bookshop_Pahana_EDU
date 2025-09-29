@@ -22,6 +22,7 @@ import EditBookPage from './Admin/Editbook';
 import Bookview from './components/bookview';
 import ContactUs from './components/contactus';
 import Guide from './components/guide';
+import AddUser from './Admin/AddUser';
 import EditUser from './Admin/EditUser';
 import BookHome from './components/bookhome';
 
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="/bookview" element={<Bookview />} />  
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/guide" element={<Guide />} />
+        <Route path="/admin/add-user" element={<AddUser />} />
         <Route path="/admin/edit-user/:id" element={<EditUser />} />
         <Route path="/bookhome" element={<BookHome />} />
         

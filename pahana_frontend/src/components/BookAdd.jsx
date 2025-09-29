@@ -187,7 +187,7 @@ const BookAdd = () => {
 
                 <div>
                   <label htmlFor="price" className="block text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">
-                    Price ($) *
+                    Price (Rs.) *
                   </label>
                   <input
                     type="number"
